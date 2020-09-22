@@ -1,0 +1,22 @@
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-left: 20%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ72miXbksWIRTjC-vWzRgeO93B1wqL_7lLtg&usqp=CAU);
+    }
+    
+    .card :hover {
+        transform: scale(1.05, 1.05);
+    }
+    
+    .cardbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px dotted royalblue;
+    }
