@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Amna_Zafer
+from .models import EmanAlbum
 # Register your models here.
-admin.site.register(Amna_Zafer)
+admin.site.register(EmanAlbum)

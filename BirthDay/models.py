@@ -1,7 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class Amna_Zafer(models.Model):
+class EmanAlbum(models.Model):
+    
     Image = models.ImageField()
     Transparant_Imag  = models.ImageField()
     Catagory = models.CharField(max_length=50)
